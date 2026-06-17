@@ -1,0 +1,579 @@
+{
+  "started_at": "2026-05-20T17:10:39",
+  "finished_at": "2026-05-20T17:10:39",
+  "ok": false,
+  "steps": [
+    {
+      "name": "ui_full_app_smoke_summary",
+      "ok": false,
+      "details": "FAILED",
+      "data": {
+        "started_at": "2026-05-20T17:08:49",
+        "finished_at": "2026-05-20T17:09:26",
+        "ok": false,
+        "steps": [
+          {
+            "name": "db_connect",
+            "ok": true,
+            "details": "Connected",
+            "data": null,
+            "ts": "2026-05-20T17:08:51"
+          },
+          {
+            "name": "screenshot_main_window",
+            "ok": true,
+            "details": "Captured",
+            "data": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_main_window.png",
+            "ts": "2026-05-20T17:09:13"
+          },
+          {
+            "name": "page_dashboard",
+            "ok": true,
+            "details": "Loaded Dashboard",
+            "data": {
+              "page": "Dashboard",
+              "attr": "dashboard",
+              "visible": true,
+              "refresh_called": "load_stats",
+              "buttons_detected": [
+                "🔄 Refresh",
+                "🔓 Open",
+                "🔒 Close",
+                "💰 New Sale",
+                "📦 Add Product",
+                "👥 Add Customer",
+                "📊 Generate Report",
+                "⚠️ View Low Stock",
+                "👁️"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_dashboard.png"
+            },
+            "ts": "2026-05-20T17:09:14"
+          },
+          {
+            "name": "page_inventory",
+            "ok": true,
+            "details": "Loaded Products/Inventory",
+            "data": {
+              "page": "Products/Inventory",
+              "attr": "inventory",
+              "visible": true,
+              "refresh_called": "load_products",
+              "buttons_detected": [
+                "✏️ Edit Product",
+                "🗑️ Delete Product",
+                "🔍 Search",
+                "✨ Add New Product",
+                "🗂️ Categories",
+                "⚠️ Low Stock",
+                "📦 Show All",
+                "🔄 Refresh Items",
+                "Prev",
+                "Next"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_inventory.png"
+            },
+            "ts": "2026-05-20T17:09:15"
+          },
+          {
+            "name": "page_customers",
+            "ok": true,
+            "details": "Loaded Customers",
+            "data": {
+              "page": "Customers",
+              "attr": "customers",
+              "visible": true,
+              "refresh_called": "load_customers",
+              "buttons_detected": [
+                "✨ Add New Customer",
+                "✏️ Edit Customer",
+                "🗑️ Delete Customer",
+                "💰 Receive Payment",
+                "📄 Statement",
+                "🖨️ Print",
+                "🔄 Refresh",
+                "Prev",
+                "Next"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_customers.png"
+            },
+            "ts": "2026-05-20T17:09:16"
+          },
+          {
+            "name": "page_suppliers",
+            "ok": true,
+            "details": "Loaded Suppliers",
+            "data": {
+              "page": "Suppliers",
+              "attr": "suppliers",
+              "visible": true,
+              "refresh_called": "load_suppliers",
+              "buttons_detected": [
+                "✨ Add New Supplier",
+                "✏️ Edit Supplier",
+                "🗑️ Delete Supplier",
+                "💰 Pay Supplier",
+                "🧾 New Purchase",
+                "📊 Purchase History",
+                "🔄 Refresh",
+                "Prev",
+                "Next"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_suppliers.png"
+            },
+            "ts": "2026-05-20T17:09:16"
+          },
+          {
+            "name": "page_sales",
+            "ok": true,
+            "details": "Loaded Sales",
+            "data": {
+              "page": "Sales",
+              "attr": "sales",
+              "visible": true,
+              "refresh_called": "update_totals",
+              "buttons_detected": [
+                "Exit Refund Mode",
+                "➕ Add Product",
+                "🗑️ Clear All",
+                "✓ COMPLETE SALE",
+                "📦 All Products",
+                "✅ In Stock",
+                "⚠️ Low Stock",
+                "❌ Out of Stock"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_sales.png"
+            },
+            "ts": "2026-05-20T17:09:17"
+          },
+          {
+            "name": "page_purchases",
+            "ok": true,
+            "details": "Loaded Purchases",
+            "data": {
+              "page": "Purchases",
+              "attr": "purchases",
+              "visible": true,
+              "refresh_called": "load_purchases",
+              "buttons_detected": [
+                "✨ New Purchase",
+                "🔍 Search",
+                "📦 Receive Purchase",
+                "💰 Record Payment"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_purchases.png"
+            },
+            "ts": "2026-05-20T17:09:20"
+          },
+          {
+            "name": "page_customer_payments",
+            "ok": true,
+            "details": "Loaded Customer Payments",
+            "data": {
+              "page": "Customer Payments",
+              "attr": "customer_payments",
+              "visible": true,
+              "refresh_called": null,
+              "buttons_detected": [
+                "✨ Record Payment",
+                "🔄 Refresh Receivables"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_customer_payments.png"
+            },
+            "ts": "2026-05-20T17:09:21"
+          },
+          {
+            "name": "page_finance",
+            "ok": true,
+            "details": "Loaded Finance",
+            "data": {
+              "page": "Finance",
+              "attr": "finance",
+              "visible": true,
+              "refresh_called": "refresh_all",
+              "buttons_detected": [
+                "Filter",
+                "Add Transaction",
+                "Add Account",
+                "View",
+                "Edit",
+                "Delete",
+                "🔄 Refresh"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_finance.png"
+            },
+            "ts": "2026-05-20T17:09:25"
+          },
+          {
+            "name": "page_expenses",
+            "ok": true,
+            "details": "Loaded Expenses",
+            "data": {
+              "page": "Expenses",
+              "attr": "expenses",
+              "visible": true,
+              "refresh_called": "load_expenses",
+              "buttons_detected": [
+                "➕ New Recurring",
+                "🔄 Refresh",
+                "⚡ Process Due",
+                "Edit",
+                "Delete",
+                "➕ New Standard Expense",
+                "💰 Pay",
+                "✨ New Expense",
+                "📄 Export CSV"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_expenses.png"
+            },
+            "ts": "2026-05-20T17:09:25"
+          },
+          {
+            "name": "page_reports",
+            "ok": true,
+            "details": "Loaded Reports",
+            "data": {
+              "page": "Reports",
+              "attr": "reports",
+              "visible": true,
+              "refresh_called": null,
+              "buttons_detected": [
+                "Generate Report",
+                "Export CSV",
+                "Export PDF",
+                "Search Products"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_reports.png"
+            },
+            "ts": "2026-05-20T17:09:26"
+          },
+          {
+            "name": "page_ai_assistant",
+            "ok": false,
+            "details": "Missing page widget: ai_assistant",
+            "data": "Traceback (most recent call last):\n  File \"C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\run_qa.py\", line 53, in _safe_step\n    data = fn()\n  File \"C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\run_qa.py\", line 318, in _run_one_page\n    raise Exception(f\"Missing page widget: {attr}\")\nException: Missing page widget: ai_assistant\n",
+            "ts": "2026-05-20T17:09:26"
+          },
+          {
+            "name": "page_settings",
+            "ok": true,
+            "details": "Loaded Settings",
+            "data": {
+              "page": "Settings",
+              "attr": "settings",
+              "visible": true,
+              "refresh_called": null,
+              "buttons_detected": [
+                "🔄 Refresh Logs",
+                "⚙️ Configure Cloud Sync",
+                "🔄 Check for Updates",
+                "💾 Save Configuration",
+                "Save Shortcuts",
+                "Reset to Defaults",
+                "Edit",
+                "Delete",
+                "➕ Add User",
+                "✏️ Edit Selected",
+                "🗑️ Delete Selected",
+                "🔄",
+                "🏷️ Test",
+                "📏 Calibrate",
+                "✂️ Cut",
+                "⬇️ Feed",
+                "💾 Create Backup Now",
+                "📥 Restore from Backup",
+                "Restore",
+                "Browse...",
+                "🗃️ Select Database",
+                "🔧 Repair Database",
+                "📤 Export Data",
+                "🧩 Fix / Update DB Schema",
+                "💾 Save Settings",
+                "🔄 Reset to Defaults",
+                "✅ Apply Changes"
+              ],
+              "screenshot": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170849\\20260520_170849_page_settings.png"
+            },
+            "ts": "2026-05-20T17:09:26"
+          },
+          {
+            "name": "ui_full_smoke",
+            "ok": true,
+            "details": "Completed",
+            "data": null,
+            "ts": "2026-05-20T17:09:26"
+          }
+        ]
+      },
+      "ts": "2026-05-20T17:10:39"
+    },
+    {
+      "name": "ui_no_man_smoke_summary",
+      "ok": false,
+      "details": "FAILED",
+      "data": {
+        "started_at": "2026-05-20T17:09:26",
+        "finished_at": "2026-05-20T17:10:31",
+        "ok": false,
+        "steps": [
+          {
+            "name": "db_connect",
+            "ok": true,
+            "details": "Connected",
+            "data": null,
+            "ts": "2026-05-20T17:09:26"
+          },
+          {
+            "name": "no_man_dashboard",
+            "ok": true,
+            "details": "No-man page scan: Dashboard",
+            "data": {
+              "page": "Dashboard",
+              "attr": "dashboard",
+              "clicked_buttons": [
+                "🔄 Refresh",
+                "🔒 Close",
+                "💰 New Sale"
+              ]
+            },
+            "ts": "2026-05-20T17:09:41"
+          },
+          {
+            "name": "no_man_inventory",
+            "ok": true,
+            "details": "No-man page scan: Products/Inventory",
+            "data": {
+              "page": "Products/Inventory",
+              "attr": "inventory",
+              "clicked_buttons": [
+                "🔍 Search",
+                "✨ Add New Product",
+                "🗂️ Categories",
+                "⚠️ Low Stock",
+                "📦 Show All",
+                "🔄 Refresh Items",
+                "Next"
+              ]
+            },
+            "ts": "2026-05-20T17:09:46"
+          },
+          {
+            "name": "no_man_customers",
+            "ok": true,
+            "details": "No-man page scan: Customers",
+            "data": {
+              "page": "Customers",
+              "attr": "customers",
+              "clicked_buttons": [
+                "✨ Add New Customer",
+                "🖨️ Print",
+                "🔄 Refresh",
+                "Next"
+              ]
+            },
+            "ts": "2026-05-20T17:09:49"
+          },
+          {
+            "name": "no_man_suppliers",
+            "ok": true,
+            "details": "No-man page scan: Suppliers",
+            "data": {
+              "page": "Suppliers",
+              "attr": "suppliers",
+              "clicked_buttons": [
+                "✨ Add New Supplier",
+                "🔄 Refresh",
+                "Next"
+              ]
+            },
+            "ts": "2026-05-20T17:09:51"
+          },
+          {
+            "name": "no_man_sales",
+            "ok": true,
+            "details": "No-man page scan: Sales",
+            "data": {
+              "page": "Sales",
+              "attr": "sales",
+              "clicked_buttons": [
+                "➕ Add Product",
+                "🗑️ Clear All"
+              ]
+            },
+            "ts": "2026-05-20T17:09:55"
+          },
+          {
+            "name": "no_man_purchases",
+            "ok": true,
+            "details": "No-man page scan: Purchases",
+            "data": {
+              "page": "Purchases",
+              "attr": "purchases",
+              "clicked_buttons": [
+                "✨ New Purchase",
+                "🔍 Search"
+              ]
+            },
+            "ts": "2026-05-20T17:10:01"
+          },
+          {
+            "name": "no_man_customer_payments",
+            "ok": true,
+            "details": "No-man page scan: Customer Payments",
+            "data": {
+              "page": "Customer Payments",
+              "attr": "customer_payments",
+              "clicked_buttons": [
+                "🔄 Refresh Receivables"
+              ]
+            },
+            "ts": "2026-05-20T17:10:01"
+          },
+          {
+            "name": "no_man_finance",
+            "ok": true,
+            "details": "No-man page scan: Finance",
+            "data": {
+              "page": "Finance",
+              "attr": "finance",
+              "clicked_buttons": [
+                "🔄 Refresh"
+              ]
+            },
+            "ts": "2026-05-20T17:10:05"
+          },
+          {
+            "name": "no_man_expenses",
+            "ok": true,
+            "details": "No-man page scan: Expenses",
+            "data": {
+              "page": "Expenses",
+              "attr": "expenses",
+              "clicked_buttons": [
+                "✨ New Expense",
+                "🔄 Refresh",
+                "📄 Export CSV"
+              ]
+            },
+            "ts": "2026-05-20T17:10:08"
+          },
+          {
+            "name": "no_man_reports",
+            "ok": true,
+            "details": "No-man page scan: Reports",
+            "data": {
+              "page": "Reports",
+              "attr": "reports",
+              "clicked_buttons": [
+                "Generate Report",
+                "Export CSV",
+                "Export PDF"
+              ]
+            },
+            "ts": "2026-05-20T17:10:28"
+          },
+          {
+            "name": "no_man_ai_assistant",
+            "ok": false,
+            "details": "Missing page widget: ai_assistant",
+            "data": "Traceback (most recent call last):\n  File \"C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\run_qa.py\", line 53, in _safe_step\n    data = fn()\n  File \"C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\run_qa.py\", line 449, in _run_page\n    raise Exception(f\"Missing page widget: {attr}\")\nException: Missing page widget: ai_assistant\n",
+            "ts": "2026-05-20T17:10:28"
+          },
+          {
+            "name": "no_man_settings",
+            "ok": true,
+            "details": "No-man page scan: Settings",
+            "data": {
+              "page": "Settings",
+              "attr": "settings",
+              "clicked_buttons": [
+                "Browse...",
+                "🔄 Reset to Defaults",
+                "✅ Apply Changes"
+              ]
+            },
+            "ts": "2026-05-20T17:10:31"
+          },
+          {
+            "name": "ui_no_man",
+            "ok": true,
+            "details": "Completed",
+            "data": {
+              "screenshots_dir": "C:\\Users\\pc\\Downloads\\pos_app\\pos_app\\qa\\reports\\screenshots_20260520_170926"
+            },
+            "ts": "2026-05-20T17:10:31"
+          }
+        ]
+      },
+      "ts": "2026-05-20T17:10:39"
+    },
+    {
+      "name": "ui_sales_refund_smoke_summary",
+      "ok": false,
+      "details": "FAILED",
+      "data": {
+        "started_at": "2026-05-20T17:10:31",
+        "finished_at": "2026-05-20T17:10:39",
+        "ok": false,
+        "steps": [
+          {
+            "name": "db_connect",
+            "ok": true,
+            "details": "Connected",
+            "data": null,
+            "ts": "2026-05-20T17:10:31"
+          },
+          {
+            "name": "seed_data",
+            "ok": true,
+            "details": "Created supplier/customer/product",
+            "data": {
+              "customer_id": 187,
+              "supplier_id": 264,
+              "product_id": 6024,
+              "sale_id": 17351,
+              "refund_id": 17352
+            },
+            "ts": "2026-05-20T17:10:31"
+          },
+          {
+            "name": "sale_create",
+            "ok": true,
+            "details": "Sale created invoice=16692",
+            "data": null,
+            "ts": "2026-05-20T17:10:38"
+          },
+          {
+            "name": "refund_payment_negative",
+            "ok": false,
+            "details": "Refund payment not negative",
+            "data": null,
+            "ts": "2026-05-20T17:10:39"
+          },
+          {
+            "name": "refund_stock",
+            "ok": true,
+            "details": "stock_level=10.0000",
+            "data": null,
+            "ts": "2026-05-20T17:10:39"
+          },
+          {
+            "name": "ui_sales_refund_flow",
+            "ok": true,
+            "details": "Completed",
+            "data": null,
+            "ts": "2026-05-20T17:10:39"
+          },
+          {
+            "name": "cleanup",
+            "ok": true,
+            "details": "Cleanup complete",
+            "data": null,
+            "ts": "2026-05-20T17:10:39"
+          }
+        ]
+      },
+      "ts": "2026-05-20T17:10:39"
+    }
+  ]
+}

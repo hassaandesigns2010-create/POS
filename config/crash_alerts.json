@@ -1,0 +1,11 @@
+{
+  "critical_levels": ["FATAL", "CRITICAL"],
+  "notification_methods": {
+    "email": "alerts@pos.example.com",
+    "slack": "#pos-crash-alerts"
+  },
+  "alert_thresholds": {
+    "hourly": 3,
+    "daily": 10
+  }
+}

@@ -1,0 +1,59 @@
+2026-06-17 12:38:17 | INFO     | root            | ================================================================================
+2026-06-17 12:38:17 | INFO     | root            | POS SYSTEM UNIFIED LOGGING INITIALIZED - 2026-06-17 12:38:17.453840
+2026-06-17 12:38:17 | INFO     | root            | Log File: C:\Users\pc\Downloads\pos_app\pos_app\logs\POS_SYSTEM.log
+2026-06-17 12:38:17 | INFO     | root            | ================================================================================
+2026-06-17 12:38:17 | INFO     | pos_app.utils.startup_validator | [STARTUP] ===== RUNNING FULL STARTUP VALIDATION =====
+2026-06-17 12:38:17 | INFO     | pos_app.utils.startup_validator | [STARTUP] Validating database connection...
+2026-06-17 12:38:17 | INFO     | pos_app.utils.startup_validator | [STARTUP] ✅ Database connection valid
+2026-06-17 12:38:17 | INFO     | pos_app.utils.startup_validator | [STARTUP] Starting database schema validation...
+2026-06-17 12:38:18 | WARNING  | pos_app.utils.startup_validator | [STARTUP] Schema mismatches detected in 9 table(s). Attempting safe fixes...
+2026-06-17 12:38:18 | INFO     | pos_app.utils.startup_validator | [STARTUP] Found 18 columns in sales table
+2026-06-17 12:38:18 | INFO     | pos_app.utils.startup_validator | [STARTUP] ✅ Database schema validation complete
+2026-06-17 12:38:18 | INFO     | pos_app.utils.startup_validator | [STARTUP] ===== STARTUP VALIDATION COMPLETE =====
+2026-06-17 12:38:29 | INFO     | app             | Cached credentials for user: Subhan
+2026-06-17 12:38:29 | INFO     | app             | User Subhan logged in from database
+2026-06-17 12:38:39 | INFO     | Watchdog        | Watchdog disabled
+2026-06-17 12:38:39 | INFO     | root            | Watchdog monitor active (3s timeout)
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | Loading config from: C:\Users\pc\Downloads\pos_app\pos_app\cloud_config.json
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | Cloud sync background thread started
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | Config loaded successfully. cloud_enabled=True, log_upload_enabled=True, backup_upload_enabled=True
+2026-06-17 12:38:39 | INFO     | root            | Cloud sync background thread started
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | Checking for updates...
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | Checking for updates from repo: storesarhad-debug/POS
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | No releases found in repository storesarhad-debug/POS. Create a release to enable auto-updates.
+2026-06-17 12:38:39 | INFO     | pos_app.utils.cloud_sync | Uploading logs...
+2026-06-17 12:38:41 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\app_20260613.log to GitHub as cloud_logs/aa601fa2b164ec80/app_20260613.log
+2026-06-17 12:38:41 | INFO     | pos_app.utils.cloud_sync | Uploaded log: app_20260613.log
+2026-06-17 12:38:42 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\app_20260617.log to GitHub as cloud_logs/aa601fa2b164ec80/app_20260617.log
+2026-06-17 12:38:42 | INFO     | pos_app.utils.cloud_sync | Uploaded log: app_20260617.log
+2026-06-17 12:38:44 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\crashes_20260617.log to GitHub as cloud_logs/aa601fa2b164ec80/crashes_20260617.log
+2026-06-17 12:38:44 | INFO     | pos_app.utils.cloud_sync | Uploaded log: crashes_20260617.log
+2026-06-17 12:38:46 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\CRITICAL_CRASH.txt to GitHub as cloud_logs/aa601fa2b164ec80/CRITICAL_CRASH.txt
+2026-06-17 12:38:46 | INFO     | pos_app.utils.cloud_sync | Uploaded log: CRITICAL_CRASH.txt
+2026-06-17 12:38:47 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\database_20260613.log to GitHub as cloud_logs/aa601fa2b164ec80/database_20260613.log
+2026-06-17 12:38:47 | INFO     | pos_app.utils.cloud_sync | Uploaded log: database_20260613.log
+2026-06-17 12:38:49 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\database_20260617.log to GitHub as cloud_logs/aa601fa2b164ec80/database_20260617.log
+2026-06-17 12:38:49 | INFO     | pos_app.utils.cloud_sync | Uploaded log: database_20260617.log
+2026-06-17 12:38:50 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\inventory_20260613.log to GitHub as cloud_logs/aa601fa2b164ec80/inventory_20260613.log
+2026-06-17 12:38:50 | INFO     | pos_app.utils.cloud_sync | Uploaded log: inventory_20260613.log
+2026-06-17 12:38:52 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\inventory_20260617.log to GitHub as cloud_logs/aa601fa2b164ec80/inventory_20260617.log
+2026-06-17 12:38:52 | INFO     | pos_app.utils.cloud_sync | Uploaded log: inventory_20260617.log
+2026-06-17 12:38:54 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\POS_SYSTEM.log to GitHub as cloud_logs/aa601fa2b164ec80/POS_SYSTEM.log
+2026-06-17 12:38:54 | INFO     | pos_app.utils.cloud_sync | Uploaded log: POS_SYSTEM.log
+2026-06-17 12:38:55 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\sales_20260613.log to GitHub as cloud_logs/aa601fa2b164ec80/sales_20260613.log
+2026-06-17 12:38:55 | INFO     | pos_app.utils.cloud_sync | Uploaded log: sales_20260613.log
+2026-06-17 12:38:57 | INFO     | pos_app.utils.cloud_sync | Successfully uploaded C:\Users\pc\Downloads\pos_app\pos_app\logs\sales_20260617.log to GitHub as cloud_logs/aa601fa2b164ec80/sales_20260617.log
+2026-06-17 12:38:57 | INFO     | pos_app.utils.cloud_sync | Uploaded log: sales_20260617.log
+2026-06-17 12:38:57 | INFO     | pos_app.utils.cloud_sync | Log upload complete: 11/11 files uploaded
+2026-06-17 12:38:57 | INFO     | pos_app.utils.cloud_sync | Uploading backup...
+2026-06-17 12:38:57 | INFO     | pos_app.utils.cloud_sync | No backup files found
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Creating sale: is_refund=False, customer_id=171, items_count=1
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Validating stock for sale (not refund)
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Processing item: product_id=3290, quantity=1, current_stock=9999918.0000
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Sale: Decreased stock for product 3290 from 9999918.0000 to 9999917.0000
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Customer credit update: is_refund=False, customer_id=171, customer_name=HUZAMA, customer_type=RETAIL, current_credit=50.0
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Sale processing: subtotal=15.0, discount=10.0, total_amount=5.0, paid_amount=0, credit_amount=5.0, payment_method=Credit
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | DEBUG: Credit decision - owes_money=True, is_credit_payment=True, is_wholesale=False, is_retail=True
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | SALE: Increased customer 171 (HUZAMA) credit from 50.0 to 55.0 (credit_amount: 5.0)
+2026-06-17 12:39:55 | INFO     | pos_app.controllers.business_logic | Created sale 22586 with invoice 21636
+2026-06-17 12:40:01 | INFO     | pos_app.views.sales | Receipt printed (text mode) to: Microsoft Print to PDF

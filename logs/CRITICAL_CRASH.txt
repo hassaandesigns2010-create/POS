@@ -1,0 +1,74 @@
+
+==================================================
+2026-01-27 17:24:56.528964
+Traceback (most recent call last):
+  File "F:\pos_app\views\suppliers.py", line 438, in _next_page
+    items = getattr(self, '_filtered_suppliers', self._suppliers_cache)
+                                                 ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SuppliersWidget' object has no attribute '_suppliers_cache'
+
+==================================================
+
+==================================================
+2026-01-27 19:39:06.591276
+Traceback (most recent call last):
+  File "F:\pos_app\main.py", line 638, in <module>
+    main()
+    ~~~~^^
+  File "F:\pos_app\main.py", line 555, in main
+    window = MainWindow(controllers, user)
+  File "F:\pos_app\views\main_window.py", line 45, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "F:\pos_app\views\main_window.py", line 215, in setup_ui
+    self.sales = SalesWidget(self.controllers['sales'], self.current_user)
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SalesWidget.__init__() takes 2 positional arguments but 3 were given
+
+==================================================
+
+==================================================
+2026-01-28 16:15:43.230887
+Traceback (most recent call last):
+  File "F:\pos_app\main.py", line 638, in <module>
+    main()
+    ~~~~^^
+  File "F:\pos_app\main.py", line 428, in main
+    controllers = setup_controllers(db)
+  File "F:\pos_app\main.py", line 218, in setup_controllers
+    business = BusinessController(db.session)
+TypeError: BusinessController.__init__() takes 1 positional argument but 2 were given
+
+==================================================
+
+==================================================
+2026-01-28 16:16:06.120152
+Traceback (most recent call last):
+  File "F:\pos_app\main.py", line 638, in <module>
+    main()
+  File "F:\pos_app\main.py", line 428, in main
+    controllers = setup_controllers(db)
+  File "F:\pos_app\main.py", line 218, in setup_controllers
+    business = BusinessController(db.session)
+TypeError: BusinessController.__init__() takes 1 positional argument but 2 were given
+
+==================================================
+
+==================================================
+2026-01-28 16:17:07.408573
+Traceback (most recent call last):
+  File "F:\pos_app\main.py", line 638, in <module>
+    main()
+  File "F:\pos_app\main.py", line 555, in main
+    window = MainWindow(controllers, user)
+  File "F:\pos_app\views\main_window.py", line 45, in __init__
+    self.setup_ui()
+  File "F:\pos_app\views\main_window.py", line 212, in setup_ui
+    self.inventory = InventoryWidget(self.controllers['inventory'])
+  File "F:\pos_app\views\inventory.py", line 395, in __init__
+    self.setup_ui()
+  File "F:\pos_app\views\inventory.py", line 495, in setup_ui
+    self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
+NameError: name 'QAbstractItemView' is not defined
+
+==================================================

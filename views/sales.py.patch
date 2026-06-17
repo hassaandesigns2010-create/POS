@@ -1,0 +1,27 @@
+*** sales.py
+--- sales.py
+***************
+*** 6980,6992 ****
+          try:
+              if hasattr(self, 'calculate_change'):
+                  self.calculate_change()
+              elif hasattr(self, 'change_label') and hasattr(self, 'amount_paid_input'):
+                  paid = float(self.amount_paid_input.value())
+                  change = max(0.0, paid - total)
+                  self.change_label.setText(f"Change to Give: Rs {change:,.2f}")
+          except Exception as e:
+              print(f"[DEBUG] Error updating change display: {e}")
+      except Exception as e:
+          print(f"[DEBUG] Error updating totals: {e}")
+          return
+--- 6980,6992 ----
+          from pos_app.views.sales_utils import safe_calculate_change
+          try:
+              safe_calculate_change(self, total)
+          except Exception as e:
+              from pos_app.utils.sales_logger import sales_logger
+              sales_logger.log_error('change_calculation', e)
+      except Exception as e:
+          from pos_app.utils.sales_logger import sales_logger
+          sales_logger.log_error('totals_update', e)
+          return

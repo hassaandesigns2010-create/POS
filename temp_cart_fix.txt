@@ -1,0 +1,27 @@
+# Replace the cart table with our custom one
+        self.cart_table = CartTableWidget(self)
+        
+        # Check if current user is a worker (cashier) and hide purchase price/profit columns
+        is_worker = False
+        if hasattr(self, 'current_user') and self.current_user:
+            try:
+                # Check if user role is cashier (worker)
+                user_role = getattr(self.current_user, 'role', '').lower()
+                is_worker = user_role == 'cashier'
+                print(f"[DEBUG] User role: {user_role}, is_worker: {is_worker}")
+            except Exception as e:
+                print(f"[DEBUG] Error checking user role: {e}")
+                is_worker = False
+        
+        if is_worker:
+            # For workers, hide purchase price and profit columns
+            self.cart_table.setColumnCount(8)
+            self.cart_table.setHorizontalHeaderLabels([
+                "Product Name", "Qty", "Sale Price", "Total", "Remove", "Bought Qty", "Stock", "Item Disc"
+            ])
+        else:
+            # For admin/manager, show all columns
+            self.cart_table.setColumnCount(10)
+            self.cart_table.setHorizontalHeaderLabels([
+                "Product Name", "Qty", "Purchase Price", "Sale Price", "Total", "Profit", "Remove", "Bought Qty", "Stock", "Item Disc"
+            ])

@@ -1,0 +1,8 @@
+{
+    "use_simple_product_dialog": true,
+    "dialog_type_description": "Set to true to use SimpleProductDialog for quick editing, false to use full ProductDialog",
+    "other_settings": {
+        "theme": "default",
+        "auto_save": true
+    }
+}

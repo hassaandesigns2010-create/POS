@@ -1,0 +1,9 @@
+Real Stock Analysis Report
+Generated: 2026-04-01 15:46:31.453509
+Best stock column: stock_level
+Total zero-stock items: 528
+
+Stock column analysis:
+warehouse_stock: {'total_with_data': 4679, 'zero_stock': 4669, 'low_stock': 0, 'normal_stock': 10, 'min_stock': 0, 'max_stock': 554, 'avg_stock': Decimal('0.49408983451536643026'), 'zero_percentage': 99.78627911946997, 'low_percentage': 0.0, 'normal_percentage': 0.21372088053002777}
+retail_stock: {'total_with_data': 4679, 'zero_stock': 3344, 'low_stock': 1114, 'normal_stock': 221, 'min_stock': 0, 'max_stock': 85183, 'avg_stock': Decimal('64.1105200945626478'), 'zero_percentage': 71.4682624492413, 'low_percentage': 23.808506091045096, 'normal_percentage': 4.723231459713614}
+stock_level: {'total_with_data': 4679, 'zero_stock': 528, 'low_stock': 3414, 'normal_stock': 737, 'min_stock': Decimal('0.0000'), 'max_stock': Decimal('85183.0000'), 'avg_stock': Decimal('31.5460568497542210'), 'zero_percentage': 11.284462491985467, 'low_percentage': 72.96430861295148, 'normal_percentage': 15.751228895063047}

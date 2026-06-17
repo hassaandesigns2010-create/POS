@@ -1,0 +1,20 @@
+(
+echo __pycache__/
+echo *.pyc
+echo build/
+echo dist/
+echo logs/
+echo backups/
+echo exports/
+echo documents/
+echo reports/
+echo qa/reports/
+echo cloud_config.json
+echo network_config.json
+echo test_*.py
+echo debug_*.py
+echo analyze_*.py
+echo investigate_*.py
+echo find_*.py
+echo check_*.py
+) > .gitignore

@@ -1,0 +1,10 @@
+{
+  "github_repo": "storesarhad-debug/POS",
+  "github_token": "",
+  "update_check_interval_hours": 2,
+  "log_upload_interval_hours": 2,
+  "backup_upload_interval_hours": 2,
+  "cloud_enabled": true,
+  "log_upload_enabled": true,
+  "backup_upload_enabled": true
+}
